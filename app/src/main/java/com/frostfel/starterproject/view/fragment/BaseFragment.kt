@@ -14,6 +14,6 @@ import com.frostfel.starterproject.R
 
 class BaseFragment : Fragment() {
 
-
+    /**Add here common methods for all fragments **/
 
 }

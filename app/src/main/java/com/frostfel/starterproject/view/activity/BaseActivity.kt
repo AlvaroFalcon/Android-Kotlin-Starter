@@ -7,6 +7,10 @@ open class BaseActivity : AppCompatActivity() {
 
     /**Add here common methods for all activities **/
 
+    /**
+     * Shows a simple dialog with text
+     **/
+
     fun showDialog(title: String, message: String, mainText: String, cancelText: String = "Cancel", mainListener: () -> Unit, cancelListener: () -> Unit = {}, showSecondary : Boolean = true) {
         val dialog = AlertDialog.Builder(this)
                 .setTitle(title)
